@@ -19,14 +19,13 @@ board.on("ready", function () {
     // as 0x70 and then the next as 0x71 even without specifying anything.
     const clock1 = new five.Led.Digits({
         controller: "HT16K33",
-        devices: 2
     });
     let toggleClock1 = 0;
 
-    // const clock2 = new five.Led.Digits({
-    //     controller: "HT16K33",
-    // });
-    // let toggleClock2 = 0;
+    const clock2 = new five.Led.Digits({
+        controller: "HT16K33",
+    });
+    let toggleClock2 = 0;
 
     setInterval(function () {
         // Toggle the colon part: on for a second, off for a second.
