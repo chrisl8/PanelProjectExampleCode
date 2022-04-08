@@ -3,7 +3,7 @@
   "dependencies": {
     "blessed": "^0.1.81",
     "johnny-five": "^0.13.0",
-    "moment": "^2.20.1",
+    "moment": "^2.29.2",
     "moment-timezone": "^0.5.14",
     "node-pixel": "^0.9.3"
   }
